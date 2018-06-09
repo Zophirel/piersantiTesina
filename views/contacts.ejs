@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/assets/style.css">
+</head>
+<body>
+	<p><%= qs.dept %></p>
+	<form id="contact-form" method="POST" action="/contacts">
+		<label for="who">Who do you want to contact?</label>
+		<input type="text" name="who" value="<%= qs.person %>">
+		<label for="department">Wich department?</label>
+		<input type="text" name="department" value="<%= qs.dept %>">
+		<label for="email">E-mail</label>
+		<input type="email" name="email"/>
+		<input type="submit" name="submit"/>
+	</form>
+</body>
+</html>

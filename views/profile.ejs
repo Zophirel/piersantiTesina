@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/assets/style.css">
+</head>
+<body>
+	<% include partials/nav.ejs%>
+	<h1><%= person %> profile page</h1>
+	<h3>Eta': <%= data.age %></h3>
+	<h3>Lavoro: <%= data.job %></h3>
+	<h3>Hobbies</h3>
+	<ul>
+		<% data.hobbies.forEach(function(item){ %>
+			<li><%= item %></li>
+		<% }); %>
+	</ul>
+</body>
+</html>

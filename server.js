@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var server = express();
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
 
 /*server.get('/', function(req, res){
 	res.send("DIO E' CANE");

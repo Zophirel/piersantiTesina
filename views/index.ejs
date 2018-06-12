@@ -1,68 +1,65 @@
 <!DOCTYPE html>
 <html>
 	<% include partials/link.ejs %>
-<body>
-<div class="jumbotron jumbotron-fluid bgh" style="height: 400px;">
-  <div class="container" style="">
-
-  </div>
-</div>
-
-<div class="rightLeft">
-<div class="button-container reverse">
-  <a class="button reverse">
-    Get in touch
-  </a>
-</div>
-
-  <div class="line sub"> 
-    <div data-x = "300" data-y="0" class="square el">
-    	<h1 style="color: black; padding-left: 5px; padding-top: 5px;">ITALIANO</h1>
-    </div>
-  </div>
-
-  <div class="line">
-    <div data-x = "300" data-y="0" class="small square el" id="right">
-    	<div class="argom">
-    		<p id="aText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    	</div> 
-    </div>
-  </div>
-
-
-
-  <div class="line"> 
-    <div data-x = "0" data-y="100" class="small square el">
-    	    	<div class="argom">
-    		<p id="aText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    	</div>
-    </div>
-  </div>
-
-    <div class="line"> 
-    <div data-x = "0" data-y="100" class="small square el"></div>
-  </div>
-  
-    <div class="line"> 
-    <div data-x = "0" data-y="100" class="small square el"></div>
-  </div>
-
-
-</div>
-
-<script type="text/javascript">
-	$("#aText").fitText(1.1, { minFontSize: '3px', maxFontSize: '8px' });
-</script>
-
-</body>
+	<body>
+		<div class="jumbotron jumbotron-fluid bgh" style="height: 400px; width: 100%">
+			<div class="container" style="">
+			</div>
+		</div>
+		<div class="rightLeft">
+			<div class=".col-xl-12">
+				<div class="button-container-left">
+					<a class="button reverse" id="bLeft">
+						Get in touch
+					</a>
+				</div>
+			</div>
+			<div class="line">
+				<div class="line sub">
+					<div data-x = "0" data-y="200" class="square el">
+						<h1 style="color: black; padding: 10px 5px 5px 5px; font-size: 40px"><span><img style="width: 40px; height: 40px; margin: 5px 20px 10px 5px;" src="/assets/img/books.svg"></span>ITALIANO</h1>
+					</div>
+				</div>
+				<div data-x = "0" data-y="200" class="small square el" id="right">
+					<div class="argom">
+						<p class="aText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br/>
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br/>
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br/>
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br/>
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/></p>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="rightTop">
+			<div class=".col-xl-12">
+				<div class="button-container-left">
+					<a class="button reverse" id="bLeft">
+						Get in touch
+					</a>
+				</div>
+			</div>
+			<div class="line">
+				<div class="line sub">
+					<div data-x = "0" data-y="200" class="square el">
+						<h1 style="color: black; padding: 10px 5px 5px 5px; font-size: 40px"><span><img style="width: 40px; height: 40px; margin: 5px 20px 10px 5px;" src="/assets/img/books.svg"></span>ITALIANO</h1>
+					</div>
+				</div>
+				<div data-x = "0" data-y="200" class="small square el" id="right">
+					<div class="argom">
+						<p class="aText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br/>
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br/>
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br/>
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br/>
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".aText").fitText(1.1, { minFontSize: '15px', maxFontSize: '20px' });
+		</script>
+	</body>
 </html>

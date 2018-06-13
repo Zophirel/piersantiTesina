@@ -9,13 +9,12 @@
 
 body{
 	background-image: url("/assets/img/bg.png");
-	height: 100%;
- 	width: 100%;
 }
 
 line > h1{
 	color: white;
 }
+
 .argom{
     position: relative;
     right: 0px;
@@ -23,6 +22,12 @@ line > h1{
     padding: 10px;
     display: inline-block;
 
+}
+
+.line{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 #aText{
@@ -38,13 +43,16 @@ line > h1{
 	z-index: 1;
 	height: 40px;
 	margin: 0 auto;
-	width: 45%;
+	width: 270px;
 	height: 70px;
 	background-color: white;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	font-family: 'Roboto';
 	font-weight: 500;
 	font-style: italic;
+	margin-left: -200px;  
+  	display: inline-block;
+  	
 }
 
 .ratio4-3 {
@@ -59,14 +67,13 @@ line > h1{
 .square,
 .circle {
   z-index: 0;
-  width: 50%;
   margin: 0 auto;
   pointer-events: none;
   position: relative;
   background-color: currentColor;
   bottom: 200px;
   background-color: blue;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.19), 0 0px 0px rgba(0,0,0,0.23);
 }
 
 .small{

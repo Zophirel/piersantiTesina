@@ -22,15 +22,20 @@ document.querySelector('.rightLeft .reverse').onclick = function() {
   allCallbacks.reverse();
 };
 
-if($('#toggled').click(function(){
-	console.log("click");
-	$('body').css("overflowY", "hidden");
-}));
-
-if($('#close').click(function(){
-	$('body').css("overflowY", "auto");
-}));
-
+$(document).ready(function(){ 
+  if($('#toggled').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
+  if($('#toggled2').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
+  if($('#close').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+  if($('#close2').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+});
 
 var toggler = document.getElementById("bLeft");
 var toggled = document.getElementById("toggled");

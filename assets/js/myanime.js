@@ -29,10 +29,35 @@ $(document).ready(function(){
   if($('#toggled2').click(function(e){
     $('body').css("overflowY", "hidden");
   }));
+  if($('#toggled3').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
+  if($('#toggled4').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
+  if($('#toggled5').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
+  if($('#toggled6').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
+  
   if($('#close').click(function(e){
     $('body').css("overflowY", "auto");
   }));
   if($('#close2').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+  if($('#close3').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+  if($('#close4').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+  if($('#close5').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+  if($('#close6').click(function(e){
     $('body').css("overflowY", "auto");
   }));
 });

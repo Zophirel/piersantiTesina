@@ -224,7 +224,7 @@ Cartoon Effect
   margin-bottom: .4em;
   font-size: 4rem;
   font-weight: 700;
-  font-family: "Boogaloo", serif;
+  /*font-family: "Boogaloo", serif;*/
 }
 .cartoon-transition .cd-btn {
   position: absolute;
@@ -272,12 +272,6 @@ Cartoon Effect
 @media only screen and (min-width: 768px) {
   .cartoon-transition h1, .cartoon-transition h2 {
     font-weight: 300;
-  }
-  .cartoon-transition h1 {
-    font-size: 8rem;
-  }
-  .cartoon-transition h2 {
-    font-size: 6rem;
   }
 }
 

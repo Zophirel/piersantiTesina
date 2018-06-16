@@ -9,7 +9,7 @@ $.getScript('/assets/js/anime.min.js', function()
   	return el.getAttribute('data-y');
   },
    opacity: [
-	{ value: [0, 1], easing: 'easeOutBack' }
+	{ value: [0, 1], /*easing: 'easeOutBack'*/ }
   ],
   delay: function(el, i) { return 1000 + (i * 100); },
   duration: function(el, i) { return 500 + (i * 500); },

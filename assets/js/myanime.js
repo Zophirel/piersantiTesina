@@ -13,16 +13,32 @@ $.getScript('/assets/js/anime.min.js', function()
   ],
   delay: function(el, i) { return 1000 + (i * 100); },
   duration: function(el, i) { return 500 + (i * 500); },
-  direction: 'alternate',
+  direction: 'normal',
   autoplay: false
 });
 
-document.querySelector('.rightLeft .reverse').onclick = function() {
+/*document.querySelector('.rightLeft .reverse').onclick = function() {
   allCallbacks.play();
-  allCallbacks.reverse();
-};
+  //allCallbacks.pause();
+  //allCallbacks.reverse();
+};*/
 
+var count = 3;
 $(document).ready(function(){ 
+  if($('#bLeft').click(function(e){
+    count++;
+    console.log(count);
+    if(count % 2 == 0)
+    {
+      allCallbacks.play();
+    }
+    if(count % 2 !== 0)
+    {
+      allCallbacks.pause();
+      allCallbacks.reverse();
+    }
+  }));
+
   if($('#toggled').click(function(e){
     $('body').css("overflowY", "hidden");
   }));
@@ -60,13 +76,6 @@ $(document).ready(function(){
   if($('#close6').click(function(e){
     $('body').css("overflowY", "auto");
   }));
-});
-
-var toggler = document.getElementById("bLeft");
-var toggled = document.getElementById("toggled");
-
-toggler.addEventListener("click", e => {
-  toggled.classList.toggle('_active');
 });
 
 

@@ -88,8 +88,8 @@ h1 {
 }
 .cd-modal p {
   line-height: 1.6;
-  margin: 2em auto;
-  max-width: 800px;
+  margin: 0.5em auto;
+  max-width: 1000px;
 }
 .cd-modal .modal-close {
   /* 'X' icon */

@@ -15,6 +15,22 @@
 	margin-bottom: 0; 
 }
 
+.firstcharacter {
+  color: #232222;
+  float: left;
+  font-family: serif;
+  font-size: 125px;
+  line-height: 60px;
+  padding-top: 17px;
+  padding-right: 20px;
+  padding-left: 3px;
+  margin-bottom:25px;
+}
+
+.firstrow::first-line{
+  color: #232222;
+}
+
 #header{
 	font-size: 10px;
 	text-align: right;

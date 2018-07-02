@@ -11,18 +11,18 @@
 			</div>
 			<div class="rightLeft">
 				<div class=".col-xl-12">
-					<div class="button-container">
-						<a class="button  reverse" id="bLeft" style="font-weight: bold">
-							La verità (cliccami!)
-						</a>
-					</div>
+					<% include partials/button.ejs %>
+
 				</div>
+				<div style="margin-bottom: 50px;">
 				<% include partials/a/italiano.ejs %>
 				<% include partials/a/storia.ejs %>
 				<% include partials/a/inglese.ejs %>
 				<% include partials/a/sistemi.ejs %>
 				<% include partials/a/gestione.ejs %>
 				<% include partials/a/informatica.ejs %>
+				<% include partials/a/matematica.ejs %>
+			</div>
 			</div>
 		</main>
 		<% include partials/b/italiano.ejs %>
@@ -31,17 +31,19 @@
 		<% include partials/b/sistemi.ejs %>
 		<% include partials/b/gestione.ejs %>
 		<% include partials/b/informatica.ejs %>
-		
+		<% include partials/b/matematica.ejs %>
 		<div class="cd-transition-layer" data-frame="25">
 			<div class="bg-layer"></div>
 		</div> <!-- .cd-transition-layer -->
 			
 		<script type="text/javascript">
 			$(".aText").fitText(1.1, { minFontSize: '15px', maxFontSize: '20px' });
-			//if( !window.jQuery ) document.write('<script src="js/jquery-2.2.1-min.js"><\/script>');
 		</script>
 		<div class="jumbotron jumbotron-fluid bgf" style="height: 400px; width: 100%; margin-bottom: 0;">
-			<div class="container" style=""></div>
+			<div class="container foo" style="">
+				<h1 style="margin-bottom: 0"><b>DISCLAIMER</b></h1>
+				<p>
+				Tutti gli argomenti trattati su questo sito non sono a scopo di lucro ma soloa fine informativo, nessuna immagine presente su questo sito è di mia proprietà, le informazioni che sono presenti sono frutto di una mia perosnale rielaborazione della originale fonte <a href="https://en.wikipedia.org/wiki/Main_Page"><b>WIKIPEDIA</b></a> le immagine di header e footer sono di proprietà di <a href="http://www.davidebonazzi.com/"><b>DAVIDE BONAZZI</b></a></p></div>
 		</div>
 	</body>
 </html>

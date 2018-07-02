@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* -------------------------------- 
@@ -229,7 +229,6 @@ Cartoon Effect
 .cartoon-transition .cd-btn {
   position: absolute;
   background: #1b1b1c;
-  color: #0d2228;
   border-radius: 0px 10px 10px 0px;
   border-style: solid;
   border-color: #FFFFFF;

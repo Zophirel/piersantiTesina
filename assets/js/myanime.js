@@ -57,6 +57,9 @@ $(document).ready(function(){
   if($('#toggled6').click(function(e){
     $('body').css("overflowY", "hidden");
   }));
+  if($('#toggled7').click(function(e){
+    $('body').css("overflowY", "hidden");
+  }));
   
   if($('#close').click(function(e){
     $('body').css("overflowY", "auto");
@@ -74,6 +77,9 @@ $(document).ready(function(){
     $('body').css("overflowY", "auto");
   }));
   if($('#close6').click(function(e){
+    $('body').css("overflowY", "auto");
+  }));
+  if($('#close7').click(function(e){
     $('body').css("overflowY", "auto");
   }));
 });
@@ -153,4 +159,5 @@ document.querySelector('.rightTop .reverse').onclick = function() {
   rightTop.play();
   rightTop.reverse();
 }*/
+
 });

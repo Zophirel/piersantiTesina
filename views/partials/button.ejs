@@ -1,0 +1,24 @@
+  <div class="grid">
+    <div class="grid__item theme-6" style="padding-bottom: 20px">
+        <button class="particles-button reverse" id="bLeft">
+                <a class="reverse" id="bLeft" style="font-weight: bold; color: #010101;">
+                    La verità
+                </a>
+        </button>
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <script src="/assets/js/anime.min.js"></script>
+  <script src="/assets/js/particles.js"></script>
+  <script src="/assets/js/demo.js"></script>
+  
+  <script>
+      // Initialize a new instance of Particles to disintegrate/integrate the button
+      var particles = new Particles('.button');
+  
+      // Disintegrate the button into particles
+      particles.disintegrate();
+  
+      // particles.integrate(); // would do the opposite
+  </script>

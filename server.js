@@ -28,3 +28,7 @@ server.post('/contacts', urlencodedParser, function(req, res){
 server.get('/', function(req, res){
 	res.render('index');
 });
+
+server.get('/button', function(req, res){
+	res.render('button');
+});
